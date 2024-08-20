@@ -22,7 +22,7 @@ namespace PS01_5_SwitchDays
 
             switch(choice)
             {
-                case "A:
+                case "A":
                     area = pi * (radius**2);
                     Console.WriteLine($"Area : {area}")
                     break;
