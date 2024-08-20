@@ -10,7 +10,7 @@ namespace PracticeSets_01
     {
         static void Main(string[] args)
         {
-            int num = 0;
+            int num = 7;
 
             if (num > 0)
             {
@@ -22,7 +22,7 @@ namespace PracticeSets_01
             }
             else
             {
-                Console.WriteLine($"{num} is neither negative nor positive");
+                Console.WriteLine("You entered 0 which is neither negative nor positive");
             }
 
         }
