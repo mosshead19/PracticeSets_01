@@ -10,6 +10,19 @@ namespace PS01_2_OddEven
     {
         static void Main(string[] args)
         {
+            int num = 5;
+
+            bool even = num % 2 == 0;
+
+            if (even)
+            {
+                Console.WriteLine($"The number {num} is even");
+            }
+            else
+            {
+                Console.WriteLine($"The number {num} is odd");
+            }
+            Console.ReadLine();
         }
     }
 }

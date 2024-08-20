@@ -10,6 +10,12 @@ namespace PS01_4_PassedFailed
     {
         static void Main(string[] args)
         {
+            
+
+            string grade = (99 >= 50) ? "Passed" : "Failed";
+            Console.WriteLine(grade);
+
+            Console.ReadLine();
         }
     }
 }
